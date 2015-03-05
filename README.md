@@ -13,32 +13,34 @@
 
 <img src="http://community.apicloud.com/bbs/data/attachment/forum/201501/13/200332oky0a0ap9x9axr87.png" />
 
-2.修改中文文件（夹）名，因为 android 开发不允许存在中文文件名。这里我们把 “微信JS-SDK Demo_files”文件夹，更名为 “script” 文件夹; 把 “微信JS-SDK Demo.html” 文件，重命名为 index.html。
+2. 修改中文文件（夹）名，因为 android 开发不允许存在中文文件名。这里我们把 “微信JS-SDK Demo_files”文件夹，更名为 “script” 文件夹; 把 “微信JS-SDK Demo.html” 文件，重命名为 index.html。
 
 **注意：**
-a.index.html 中的 “微信JS-SDK Demo_files” 相关路径也要同步修改为 “script”。
 
-b.index.html 用作倒档的几个按钮，如“基础接口”，“分享接口”等，点击会跳出应用，需要删去 Google 智（无）能（脑）添加的路径信息：http://demo.open.weixin.qq.com/jssdk/，如
+a. index.html 中的 “微信JS-SDK Demo_files” 相关路径也要同步修改为 “script”。
+
+b. index.html 用作倒档的几个按钮，如“基础接口”，“分享接口”等，点击会跳出应用，需要删去 Google 智（无）能（脑）添加的路径信息：http://demo.open.weixin.qq.com/jssdk/，如
 “http://demo.open.weixin.qq.com/jssdk/#menu-basic”改为 “#menu-basic”。
 
-c.以上需要修改的地方，都是因为使用了 Google 浏览器保存网页，浏览器智（无）能（脑）添加了无关信息；实际开发中，是不会遇到这个问题的。
+c. 以上需要修改的地方，都是因为使用了 Google 浏览器保存网页，浏览器智（无）能（脑）添加了无关信息；实际开发中，是不会遇到这个问题的。
 
-3.在 wiget 文件目录下添加一个 config.xml 文件，并适当修改，并适当配置。如果2：
+3. 在 wiget 文件目录下添加一个 config.xml 文件，并适当修改，并适当配置。如果2：
 关于配置的更多信息，参见：http://docs.apicloud.com/APICloud/技术专题/3rd-party-integration-manual。
 当然， 您可以直接复制附件中的 config.xml 文件到您自己的 wiget 文件夹中，来快速体验。
 
 <img src="http://community.apicloud.com/bbs/data/attachment/forum/201501/13/200332gym5vo5q35vi5vbo.png" />
 
-4.使用我们提供的 jweixin-1.0.0.js 文件替换 wiget/script/jweixin-1.0.0.js文件.（jweixin-1.0.0.js 文件见下方链接）
+4. 使用我们提供的 jweixin-1.0.0.js 文件替换 wiget/script/jweixin-1.0.0.js文件.（jweixin-1.0.0.js 文件见下方链接）
       
-5.网站控制台新建 native 应用；widget 文件夹压缩为 widget.zip ，并上传到 网站控制台-->代码；
+5. 网站控制台新建 native 应用；widget 文件夹压缩为 widget.zip ，并上传到 网站控制台-->代码；
 上传成功，云编译即可生成原生iOS + Android应用。见图3，图4.图5.
 
 <img src="http://community.apicloud.com/bbs/data/attachment/forum/201501/13/200333zsak6c121cg0xagz.png" />
 
-6.扫描生成的二维码，安装应用；安装成功后，打开即可体验。详见效果图。
+6. 扫描生成的二维码，安装应用；安装成功后，打开即可体验。详见效果图。
       
 **注意：**
+
 1.微信 JS-SDK 接口文档，参见： http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
 
 2.示例中使用的是 APPloader 的相关 SDK 信息，微信分享后，可能会跳转到 APPLoader 应用。把您的应用配置更改为自己的，即可解决此问题。
@@ -63,13 +65,13 @@ c.以上需要修改的地方，都是因为使用了 Google 浏览器保存网�
 
 **下载链接:**
       
-1.iOS 安装包地址：http://resource.apicloud.com/weixinjssdk/weChat.ipa
+1. iOS 安装包地址：http://resource.apicloud.com/weixinjssdk/weChat.ipa
       
-2.安卓安装包地址：http://resource.apicloud.com/weixinjssdk/weChat.apk
+2. 安卓安装包地址：http://resource.apicloud.com/weixinjssdk/weChat.apk
       
 3. jweixin-1.0.0.js APICloud 版 地址；http://resource.apicloud.com/weixinjssdk/jweixin-1.0.0.js
       
-4.widet.zip 压缩包，源文件地址：http://resource.apicloud.com/weixinjssdk/widget.zip
+4. widet.zip 压缩包，源文件地址：http://resource.apicloud.com/weixinjssdk/widget.zip
       
 二维码扫描快速体验：
 -----------------------
